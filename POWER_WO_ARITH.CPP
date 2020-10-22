@@ -7,6 +7,7 @@ int main()
     int a=2, m=4, i, j, mul=0, temp;
     temp = a;
     for(i = 0; i < m; i++){
+        // mul += temp;
         while (temp != 0)  
         {  
             int carry = mul & temp;
