@@ -8,9 +8,9 @@ int main()
     cout << "Enter Days: ";
     cin >> days;
     
-    years = days/365;
-    weeks = (days%365)/7;
-    days = (days%365)%7;
+    years = days / 365;
+    weeks = (days % 365) / 7;
+    days = (days % 365) % 7;
     
     cout << "Year: " << years << endl;
     cout << "Weeks: " << weeks << endl;
